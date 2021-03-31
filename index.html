@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico?v1" />
+    <title>Andreas</title>
+</head>
+
+<body>
+
+    <head>
+        <div class="himg">
+            <div class="texth">
+                <h4 class="wh">Who is <span class="cool"><b>Andreas Yozef</b></span>?</h4>
+                <p>Andreas is a <span class="typet"></span><span class="blink">&nbsp;</span>
+                </p>
+            </div>
+            <div id="control">
+                <!-- tadinya mau pake FA tapi takut dianggep framework jadinya gak pake. -->
+                <a href="#" id="vidb" onclick="vid()">pause</a>
+                <hr class="ver">
+                <a href="#" id="mutez" onclick="mute()">muted</a>
+            </div>
+            <video id="vid" autoplay muted loop>
+                <source src="ALE.mp4" type="video/mp4">
+            </video>
+        </div>
+    </head>
+    <div class="container">
+        <div class="conp">
+            <span class="pros">My Projects</span>
+        </div>
+        <!-- pake fetch ngehandle data2nya, cek imgd.json buat liat arraynya -->
+        <!-- no lightbox, gara2 rushed -->
+        <div id="box" class="box">
+        </div>
+    </div>
+    <footer>
+        <div class="aa">
+            <span class="conts">About</span>
+        </div>
+        <div class="bb">
+            <span class="awal">Hey i'm <span class="cool">Andreas Yozef</span> i live & study at jakarta!</span>
+        </div>
+        <div class="aa">
+            <span class="conts">Find me!</span>
+        </div>
+        <!-- i have no idea what to put here, jadinya kosong gitu  -->
+        <div class="socials">
+            <ul>
+                <li><a href="https://youtube.com/feiku">Youtube</a></li>
+                <li><a href="https://soundcloud.com/andreaslsg">Soundcloud</a></li>
+                <li><a href="https://github.com/andreasyny">Github</a></li>
+                <li><a href="https://twitter.com/feikuxv">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="js/roll.js"></script>
+<script src="js/vid.js"></script>
+<script src="js/prot.js"></script>
+<script src="js/nokey.js"></script>
+
+</html>
